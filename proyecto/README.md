@@ -24,3 +24,11 @@ Un proyecto por equipo (sin repetir entre grupos). El mismo proyecto atraviesa a
 - El entorno debe poder **reproducirse desde cero** con: `aws cloudformation deploy --template-file iac/main.yaml --stack-name gtn-<equipo> --capabilities CAPABILITY_NAMED_IAM`.
 - Cada cambio de infraestructura pasa por **PR** (el CI corre `cfn-lint`).
 - `iac/README.md` documenta cómo desplegar, detener y destruir el stack (y el costo estimado).
+
+## 📖 Cómo se trabaja: caso → historias de usuario → backlog
+Cada enunciado es un **caso real** con actores y **historias de usuario épicas** (`Como [rol], quiero [algo], para [valor]`). El flujo del equipo:
+1. **Leen el caso** y lo discuten: ¿qué problema de negocio resuelve?
+2. **Descomponen las épicas** en historias más pequeñas y las convierten en **issues de su repo** con la plantilla *Historia de usuario* (título `HU-XX`).
+3. Cada historia lleva **criterios de aceptación** (Dado... Cuando... Entonces...) y se cierra con un **PR que la implementa**.
+4. El tablero del repo muestra historias por estado (`Backlog → En curso → Hecho`) y los hitos semanales agrupan qué historias deben estar listas para cada entrega.
+> La arquitectura nace de las historias: cada requisito no funcional (pico de carga, costo, disponibilidad) también se escribe como historia y justifica una decisión en `docs/decisiones.md`.
