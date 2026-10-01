@@ -4,7 +4,7 @@ Un proyecto por equipo (sin repetir entre grupos). El mismo proyecto atraviesa a
 
 ## 🎯 Cómo arrancar (semana 5)
 1. Conforman el equipo y **escogen un enunciado** de `enunciados/` (se asigna por orden de solicitud al docente).
-2. Crean su repo desde [`plantilla-equipo`](../plantilla-equipo/) → *Use this template*.
+2. Crean su repo desde [repo plantilla](https://github.com/cesarpalacios/gtn-plantilla-equipo) → *Use this template*.
 3. Llenan la **ficha del caso** en su README y abren el issue *Hito 0*.
 
 ## 📅 Hitos semanales
