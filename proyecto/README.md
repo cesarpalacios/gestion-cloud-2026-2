@@ -1,9 +1,9 @@
 # 🚀 Proyecto del semestre
 
-Un proyecto por equipo (sin repetir entre grupos). El mismo proyecto atraviesa arquitectura, desplegue, seguridad y costos. Al final debe estar **implementado y funcionando, no solo diagramado**.
+Equipos de **máximo 3 integrantes**. Un proyecto por equipo (sin repetir entre grupos). El mismo proyecto atraviesa arquitectura, desplegue, seguridad y costos. Al final debe estar **implementado y funcionando, no solo diagramado**.
 
 ## 🎯 Cómo arrancar (semana 5)
-1. Conforman el equipo y **escogen un enunciado** de `enunciados/` (se asigna por orden de solicitud al docente).
+1. Conforman el equipo (**máximo 3 integrantes**) y **escogen un enunciado** de `enunciados/` (se asigna por orden de solicitud al docente).
 2. Crean su repo desde [repo plantilla](https://github.com/cesarpalacios/gtn-plantilla-equipo) → *Use this template*.
 3. Llenan la **ficha del caso** en su README y abren el issue *Hito 0*.
 

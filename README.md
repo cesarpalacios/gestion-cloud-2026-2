@@ -8,7 +8,6 @@ Ecosistema del curso (UNAL): proyecto del semestre, laboratorios y rúbricas. To
 | `proyecto/` | Reglas, hitos semanales y los **8 proyectos base** (cada equipo escoge uno, sin repetir) |
 |  `plantilla-equipo/` (mirror del [repo plantilla](https://github.com/cesarpalacios/gtn-plantilla-equipo)) | Repositorio plantilla que cada equipo copia con *"Use this template"* |
 | `laboratorios/` | Lab 01–06 con la evidencia exigida (Nota 5) |
-| `rubricas/` | Rúbrica de Arquitectura (Nota 2) y de Sustentación (Nota 3) |
 | `.starter/` | LocalStack para practicar **CloudFormation gratis en local** |
 
 ## 🧰 Stack del curso
@@ -18,6 +17,8 @@ Ecosistema del curso (UNAL): proyecto del semestre, laboratorios y rúbricas. To
 - **Jenkins** — servidor CI/CD del curso: construye, valida la IaC y despliega (GitHub queda para el repositorio, issues y PRs)
 
 ## 📜 Reglas de trabajo (Git)
+
+0. Equipos de **máximo 3 integrantes**. Cada equipo, un solo proyecto.
 1. Cada equipo crea su repositorio desde el [repo plantilla](https://github.com/cesarpalacios/gtn-plantilla-equipo) (*Use this template*) y lo nombra `gtn-proyecto-<nombre>`.
 2. Se trabaja con **ramas + Pull Requests**: nada se sube directo a `main` sin PR.
 3. Cada **hito semanal** se entrega cerrando su issue correspondiente (plantilla en `.github/ISSUE_TEMPLATE`).
