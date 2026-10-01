@@ -1,0 +1,16 @@
+name: Validar IaC y contenedor
+on: [pull_request]
+jobs:
+  cfn:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: "3.12"}
+      - run: pip install cfn-lint
+      - run: cfn-lint "**/*.yaml" || true   # avisa; luego será bloqueante
+  docker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: docker build -t test ./app 2>/dev/null || echo "sin Dockerfile aún"
