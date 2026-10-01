@@ -10,10 +10,10 @@ Directora del programa (publica contenido) · Estudiante visitante · Egresado i
 - **[HU-04]** Como directora, quiero ver cuántas visitas recibe cada proyecto, para decidir qué promover.
 *(Su equipo prioriza, descompone y convierte estas historias en issues de su backlog; pueden proponer las que falten.)*
 ## ☁️ Requisitos cloud
-S3 (hosting) · CloudFront (CDN) · ACM (HTTPS) · GitHub Actions (deploy) · **CloudFormation para todo el entorno**
+S3 (hosting) · CloudFront (CDN) · ACM (HTTPS) · pipeline Jenkins (deploy) · **CloudFormation para todo el entorno**
 ## ⚠️ Restricciones
 Sin servidores administrados (0 EC2) · **presupuesto objetivo ≤ 3 USD/mes**
 ## ✅ Entregables clave
-URL pública con HTTPS · pipeline que publica en cada push a main · informe de costos real vs objetivo
+URL pública con HTTPS · pipeline Jenkins que publica en cada cambio · informe de costos real vs objetivo
 ## 🚀 Reto extra
 Ambientes staging/producción con el mismo template y parámetros distintos.
